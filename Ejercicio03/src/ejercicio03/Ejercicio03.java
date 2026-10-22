@@ -16,6 +16,22 @@ public class Ejercicio03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       int a = 25;
+        int b = 15;
+        int c = 8;
+        int d = 49;
+        
+        // Variable decimal para el número con punto flotante
+        double e = 2.5;
+
+        // Cálculos
+        double division = (double) (a + b) / c; // Convertimos a double para mantener precisión
+        double raiz = Math.sqrt(d);
+        
+        double resultado = division + raiz + e;
+
+        // Mostrar el resultado en consola
+        System.out.println("El resultado de la operación es: " + resultado);   
         
     }
     

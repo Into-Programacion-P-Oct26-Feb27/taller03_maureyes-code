@@ -16,11 +16,19 @@ public class Ejercicio02 {
      */
     public static void main(String[] args) {
         // Resolución del problema
-        int var1 = 10;
-        int var2 = 2;
+        int a = 5;
+        int b = 3;
+        int c = 4;
+        int d = 7;
         
-                
+          System.out.println("-------Solución a problema------------------");
+       
+        
+        double resultado = ((((Math.pow (a, 2))+(Math.pow (b, 3)))/c)+ d); 
+        
+        System.out.println(resultado);
     }
+    
     
     
     
